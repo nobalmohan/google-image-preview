@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image Preview</title>
+  <link rel="stylesheet" media="all" href="index.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+  <script type="text/javascript" src="index.js"></script>
+</head>
+
+<body onload="init();">
+
+  <ul class="image-grid-container">
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-1" src="http://www.mapsofindia.com/maps/india/india-large-color-map.jpg">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-2" src="http://www.geneticsandsociety.org/img/original/India.png">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-3" src="http://www.in.undp.org/content/dam/india/img/dark_bluepngindia.png">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-4" src="http://wwwnc.cdc.gov/travel/images/map-india.png">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-5" src="https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-6" src="https://upload.wikimedia.org/wikipedia/commons/a/af/India_topo_big.jpg">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-7" src="http://www.findiaproject.org/img/findia-map.png">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-8" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/India-locator-map-NE.svg/2000px-India-locator-map-NE.svg.png">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-9" src="https://images.indiegogo.com/file_attachments/1031460/files/20141120012136-north-east-india-map.jpg">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-10" src="http://www.telegraph.co.uk/incoming/article115830.ece/ALTERNATES/w620/india.jpg">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-11" src="https://www.liverpool.ac.uk/media/research/india-fellowship-brochure-image.jpg">
+    </li>
+
+    <li class="image-grid-box">
+      <img class="previewImage" data-result="img-result-12" src="http://cdn.lightgalleries.net/4bd5ebf721640/images/LA_IndiaRain06-1.jpg">
+    </li>
+
+  </ul>
+
+  <div class="image-preview-container">
+    <i class="arrow-up"></i>
+    <div id="image-preview">
+      <span id="previousImage">
+        <i class="material-icons font-icons">navigate_before</i>
+      </span>
+      <img class="image-grid-box" id="previewImage" src="http://www.mapsofindia.com/maps/india/india-large-color-map.jpg">
+      <span id="nextImage">
+        <i class="material-icons font-icons">navigate_next</i>
+      </span>
+      <a href="#" target="_blank" id="viewImage">View Image</a>
+    </div>
+    <span class="closePreview" id="closePreview">
+      <i class="material-icons">close</i>
+    </span>
+  </div>
+
+</body>
+
+</html>
